@@ -8,10 +8,10 @@
     <body>
         <nav>
             <ul>
-                <li><a href="index.php/dvd">Accueil</a></li>
-                <li><a href="index.php/dvd">Dvd</a></li>
-                <li><a href="index.php/dvd">Ou nous trouver ?</a></li>
-                <li><a href="index.php/dvd">DVD</a></li>
+                <li><a href="/accueil">Accueil</a></li>
+                <li><a href="/dvd">Dvd</a></li>
+                <li><a href="/ounoustrouver">Ou nous trouver ?</a></li>
+                <li><a href="/connexion">Connexion</a></li>
             </ul>
         </nav>
 <?php
