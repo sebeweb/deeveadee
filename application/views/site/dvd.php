@@ -1,5 +1,5 @@
-<div>
-    <p>test</p>
-</div>
+<div id="result">
 <?php
 
+?>
+</div>

@@ -1,7 +1,14 @@
 <div>
     <h1>
-        Les dernier dvd
+        Notre selection de dvd
     </h1>
+    <div id="dvdOfTheMonth"></div>
+    <?php
+//    foreach ($dvdOfMonth as $dvdMonth) {
+//        echo '<p>' . $dvdMonth['titre'] . '</p>'
+//        . '<p>' . $dvdMonth['img'] . '</p>';
+//    }
+    ?>
 </div>
 <div>
     <h1>

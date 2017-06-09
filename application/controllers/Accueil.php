@@ -15,4 +15,10 @@ class Accueil extends CI_Controller {
         $this->load->view('templates/footer');
     }
 
+    public function getDvdOfTheMonth() {
+        $dvd = $this->Dvd_model->getDvdsOfMonth();
+        $this->output->set_content_type('application/json');
+        $this->output->set_output(json_encode($dvd));
+    }
+
 }

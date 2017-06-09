@@ -10,10 +10,15 @@ class Dvd extends CI_Controller {
 
     public function index() {
         $data['title'] = 'News archive';
-        $data['dvd'] = $this->Dvd_model->get_Dvd();
         $this->load->view('templates/header', $data);
-        $this->load->view('site/dvd', $data);
+        $this->load->view('site/dvd');
         $this->load->view('templates/footer');
+    }
+
+    public function getDvd() {
+        $dvd = $this->Dvd_model->get_Dvd();
+        $this->output->set_content_type('application/json');
+        $this->output->set_output(json_encode($dvd));
     }
 
 }
