@@ -6,8 +6,9 @@
         <link rel="stylesheet" href="/css/main.css">
     </head>
     <body>
-        <nav>
-            <ul>
+        <h1 class="text-uppercase">deveadee</h1>
+        <nav class="navbar navbar-default">
+            <ul class="nav navbar-nav">
                 <li><a href="/accueil">Accueil</a></li>
                 <li><a href="/dvd">Dvd</a></li>
                 <li><a href="/ounoustrouver">Ou nous trouver ?</a></li>
